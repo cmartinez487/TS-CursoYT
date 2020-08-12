@@ -10,8 +10,10 @@ var __extends = (this && this.__extends) || (function () {
         function __() { this.constructor = d; }
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
-})();
+});
+
 console.log('hello world');
+
 //types
 var mystring = "Scott Aspect";
 mystring = 2020 + " " + "Scott Aspect";
@@ -19,19 +21,23 @@ var mynumber = 487;
 var mybool = true || false;
 var myvar = "hello";
 myvar = 11;
+
 //arrays
 var stringarray = ["", "", ""];
 var numberarray = [1, 2, 3];
 var booleanarray = [true, false, true];
 var anyarray = [1, true, "hello"];
+
 //tupls
 var stringNumTuple;
 stringNumTuple = ["hola", 487];
+
 // void, Undefined, null
 var pi = 3.1415;
 var myboy = undefined;
 var mynull = null;
 var myund = undefined;
+
 //funtion
 function getsum(number1, number2) {
     return number1 + number2;
